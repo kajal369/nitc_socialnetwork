@@ -1,3 +1,8 @@
+
+
+
+
+
 package com.sdkproject.nitcsocialmedia;
 
 import androidx.annotation.NonNull;
@@ -70,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-
+//override
     public void GoToRegisterActivity(View view) {
         startActivity(new Intent(getApplicationContext(),RegisterActivity.class));
     }
